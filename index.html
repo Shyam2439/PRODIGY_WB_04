@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="dp.jpg">
+        <h1>Hi, I'm Pendyala Shyam</h1>
+        <button onclick="document.getElementById('projects').scrollIntoView()">View My Work</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing a B.Tech in Computer Science & Engineering at K L University, 
+            with an expected graduation year of 2026. Prior to this, I completed my Senior 
+            Secondary education in Science at Sri Chaitanya Junior College under the Andhra Pradesh 
+            Board of Intermediate Education, achieving a percentage of 83% in 2022. I also
+            completed my Secondary education at Sujatha High School, under the Board 
+            of Secondary Education of Andhra Pradesh, where I secured a remarkable 86% in 2020.</p>
+        <button href="resume.pdf" target="_blank">My Resume</button>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Hotel Management System</h3>
+            <p>A Hotel Management System (HMS) in Python is a comprehensive software application 
+                designed to streamline the various operations involved in running a hotel. 
+                It encompasses features such as room management, where users can handle bookings, reservations, check-ins, 
+                check-outs, and track room availability and status. The system also includes guest management functionalities, 
+                allowing the storage and management of guest details, histories, and preferences. 
+                Additionally, staff management is a crucial component, enabling the tracking of employee records, roles, and schedules.
+                This system aims to improve efficiency, enhance guest experiences, and ensure smooth day-to-day operations within 
+                the hotel.</p>
+           
+        </div>
+        <div class="project-card">
+            <h3>Agricultural Products Rural 
+                Entrepreneurship Management Web Application</h3>
+            <p>An Agricultural Products Rural Entrepreneurship Management Web Application is designed to support and manage 
+                the entrepreneurial activities of rural farmers and agricultural businesses. This web application provides a platform 
+                for farmers to list and sell their products, connect with potential buyers, and access market information. 
+                It includes features such as inventory management, order processing, and payment gateways to facilitate transactions. 
+                The application also offers tools for managing business operations, including tracking sales, monitoring supply chains, 
+                and managing customer relationships. Additionally, it provides resources and information on best practices, market 
+                trends, and financial management to help rural entrepreneurs grow their businesses effectively. This system aims to 
+                empower rural agricultural entrepreneurs by providing them with the tools and resources needed to succeed in the 
+                competitive market.
+                </p>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <h3>C</h3>
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="skill-bar" style="width: 75%;"></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill">
+                <h3>Figma</h3>
+                <div class="skill-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar" style="width: 90%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="shyampendyala123@gmail.com">shyampendyala123@gmail.com</a></p>
+        <p>Follow me: 
+            <a href="www.linkedin.com/in/pendyala-shyam-460625247">LinkedIn</a> | 
+            <a href="https://github.com/Shyam2439">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pendyala Shyam. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
